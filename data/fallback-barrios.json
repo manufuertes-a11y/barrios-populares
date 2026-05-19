@@ -1,0 +1,902 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Villa 31 - Retiro",
+        "partido": "Ciudad Autónoma de Buenos Aires",
+        "superficie_m2": 720000,
+        "cantidad_familias_aproximada": 12000,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "EN PROCESO",
+        "estado_de_urbanizacion": "En proceso de urbanización"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.3725, -34.5820],
+          [-58.3660, -34.5820],
+          [-58.3660, -34.5875],
+          [-58.3725, -34.5875],
+          [-58.3725, -34.5820]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Villa 1-11-14",
+        "partido": "Ciudad Autónoma de Buenos Aires",
+        "superficie_m2": 500000,
+        "cantidad_familias_aproximada": 10500,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "SI",
+        "estado_de_urbanizacion": "En proceso de urbanización"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.4320, -34.6490],
+          [-58.4250, -34.6490],
+          [-58.4250, -34.6540],
+          [-58.4320, -34.6540],
+          [-58.4320, -34.6490]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Villa 21-24",
+        "partido": "Ciudad Autónoma de Buenos Aires",
+        "superficie_m2": 420000,
+        "cantidad_familias_aproximada": 9800,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "En proceso de urbanización"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.4020, -34.6640],
+          [-58.3950, -34.6640],
+          [-58.3950, -34.6690],
+          [-58.4020, -34.6690],
+          [-58.4020, -34.6640]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Padre Carlos Mugica (ex Ciudad Oculta)",
+        "partido": "Ciudad Autónoma de Buenos Aires",
+        "superficie_m2": 240000,
+        "cantidad_familias_aproximada": 5200,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "SI",
+        "estado_de_urbanizacion": "Urbanizado"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5020, -34.6430],
+          [-58.4960, -34.6430],
+          [-58.4960, -34.6470],
+          [-58.5020, -34.6470],
+          [-58.5020, -34.6430]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Villa 15 - Ciudad Oculta",
+        "partido": "Ciudad Autónoma de Buenos Aires",
+        "superficie_m2": 180000,
+        "cantidad_familias_aproximada": 4100,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "SI",
+        "estado_de_urbanizacion": "En proceso de urbanización"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5010, -34.6450],
+          [-58.4950, -34.6450],
+          [-58.4950, -34.6490],
+          [-58.5010, -34.6490],
+          [-58.5010, -34.6450]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Villa Itatí",
+        "partido": "Quilmes",
+        "superficie_m2": 650000,
+        "cantidad_familias_aproximada": 11200,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.2540, -34.7130],
+          [-58.2460, -34.7130],
+          [-58.2460, -34.7190],
+          [-58.2540, -34.7190],
+          [-58.2540, -34.7130]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Villa Palito",
+        "partido": "La Matanza",
+        "superficie_m2": 280000,
+        "cantidad_familias_aproximada": 4800,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5810, -34.6720],
+          [-58.5750, -34.6720],
+          [-58.5750, -34.6760],
+          [-58.5810, -34.6760],
+          [-58.5810, -34.6720]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "El Tala",
+        "partido": "La Matanza",
+        "superficie_m2": 340000,
+        "cantidad_familias_aproximada": 5600,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.6060, -34.7020],
+          [-58.5990, -34.7020],
+          [-58.5990, -34.7070],
+          [-58.6060, -34.7070],
+          [-58.6060, -34.7020]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Don Orione",
+        "partido": "Almirante Brown",
+        "superficie_m2": 310000,
+        "cantidad_familias_aproximada": 4200,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.3890, -34.8030],
+          [-58.3820, -34.8030],
+          [-58.3820, -34.8080],
+          [-58.3890, -34.8080],
+          [-58.3890, -34.8030]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Los Perales",
+        "partido": "Ciudad Autónoma de Buenos Aires",
+        "superficie_m2": 95000,
+        "cantidad_familias_aproximada": 2100,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "SI",
+        "estado_de_urbanizacion": "Urbanizado"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5200, -34.6580],
+          [-58.5140, -34.6580],
+          [-58.5140, -34.6610],
+          [-58.5200, -34.6610],
+          [-58.5200, -34.6580]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Villa Cildáñez",
+        "partido": "Ciudad Autónoma de Buenos Aires",
+        "superficie_m2": 110000,
+        "cantidad_familias_aproximada": 2400,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "EN PROCESO",
+        "estado_de_urbanizacion": "En proceso de urbanización"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.4710, -34.6640],
+          [-58.4650, -34.6640],
+          [-58.4650, -34.6680],
+          [-58.4710, -34.6680],
+          [-58.4710, -34.6640]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Barrio Scapino",
+        "partido": "Lomas de Zamora",
+        "superficie_m2": 190000,
+        "cantidad_familias_aproximada": 3100,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.3990, -34.7570],
+          [-58.3920, -34.7570],
+          [-58.3920, -34.7610],
+          [-58.3990, -34.7610],
+          [-58.3990, -34.7570]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "La Cárcova",
+        "partido": "San Martín",
+        "superficie_m2": 220000,
+        "cantidad_familias_aproximada": 3800,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5510, -34.5870],
+          [-58.5440, -34.5870],
+          [-58.5440, -34.5910],
+          [-58.5510, -34.5910],
+          [-58.5510, -34.5870]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Independencia",
+        "partido": "San Martín",
+        "superficie_m2": 160000,
+        "cantidad_familias_aproximada": 2700,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5370, -34.5980],
+          [-58.5300, -34.5980],
+          [-58.5300, -34.6020],
+          [-58.5370, -34.6020],
+          [-58.5370, -34.5980]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Curita",
+        "partido": "Lomas de Zamora",
+        "superficie_m2": 145000,
+        "cantidad_familias_aproximada": 2300,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.4070, -34.7780],
+          [-58.4010, -34.7780],
+          [-58.4010, -34.7820],
+          [-58.4070, -34.7820],
+          [-58.4070, -34.7780]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Villa Tranquila",
+        "partido": "Avellaneda",
+        "superficie_m2": 175000,
+        "cantidad_familias_aproximada": 2900,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.3510, -34.6680],
+          [-58.3450, -34.6680],
+          [-58.3450, -34.6720],
+          [-58.3510, -34.6720],
+          [-58.3510, -34.6680]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Monte Chingolo",
+        "partido": "Lanús",
+        "superficie_m2": 400000,
+        "cantidad_familias_aproximada": 7200,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.3640, -34.7290],
+          [-58.3560, -34.7290],
+          [-58.3560, -34.7350],
+          [-58.3640, -34.7350],
+          [-58.3640, -34.7290]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "El Trébol",
+        "partido": "Berazategui",
+        "superficie_m2": 260000,
+        "cantidad_familias_aproximada": 4100,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.2110, -34.7540],
+          [-58.2040, -34.7540],
+          [-58.2040, -34.7590],
+          [-58.2110, -34.7590],
+          [-58.2110, -34.7540]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "San Jorge",
+        "partido": "San Fernando",
+        "superficie_m2": 480000,
+        "cantidad_familias_aproximada": 8100,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5680, -34.4670],
+          [-58.5590, -34.4670],
+          [-58.5590, -34.4730],
+          [-58.5680, -34.4730],
+          [-58.5680, -34.4670]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Reconquista",
+        "partido": "General San Martín",
+        "superficie_m2": 390000,
+        "cantidad_familias_aproximada": 6600,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5370, -34.5610],
+          [-58.5290, -34.5610],
+          [-58.5290, -34.5660],
+          [-58.5370, -34.5660],
+          [-58.5370, -34.5610]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Las Antenas",
+        "partido": "Esteban Echeverría",
+        "superficie_m2": 290000,
+        "cantidad_familias_aproximada": 4700,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.4620, -34.8110],
+          [-58.4550, -34.8110],
+          [-58.4550, -34.8160],
+          [-58.4620, -34.8160],
+          [-58.4620, -34.8110]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Puerta de Hierro",
+        "partido": "La Matanza",
+        "superficie_m2": 210000,
+        "cantidad_familias_aproximada": 3400,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.6260, -34.6920],
+          [-58.6190, -34.6920],
+          [-58.6190, -34.6960],
+          [-58.6260, -34.6960],
+          [-58.6260, -34.6920]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "La Esperanza",
+        "partido": "Florencio Varela",
+        "superficie_m2": 320000,
+        "cantidad_familias_aproximada": 5200,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.2820, -34.8320],
+          [-58.2740, -34.8320],
+          [-58.2740, -34.8380],
+          [-58.2820, -34.8380],
+          [-58.2820, -34.8320]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "La Matera",
+        "partido": "La Matanza",
+        "superficie_m2": 270000,
+        "cantidad_familias_aproximada": 4400,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.6550, -34.7370],
+          [-58.6470, -34.7370],
+          [-58.6470, -34.7420],
+          [-58.6550, -34.7420],
+          [-58.6550, -34.7370]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Costa Esperanza",
+        "partido": "General San Martín",
+        "superficie_m2": 560000,
+        "cantidad_familias_aproximada": 9300,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5630, -34.5470],
+          [-58.5540, -34.5470],
+          [-58.5540, -34.5540],
+          [-58.5630, -34.5540],
+          [-58.5630, -34.5470]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "El Garrote",
+        "partido": "Tigre",
+        "superficie_m2": 185000,
+        "cantidad_familias_aproximada": 2900,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5870, -34.4280],
+          [-58.5800, -34.4280],
+          [-58.5800, -34.4320],
+          [-58.5870, -34.4320],
+          [-58.5870, -34.4280]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Barrio Mitre",
+        "partido": "Ciudad Autónoma de Buenos Aires",
+        "superficie_m2": 85000,
+        "cantidad_familias_aproximada": 1800,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "SI",
+        "estado_de_urbanizacion": "Urbanizado"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5060, -34.6200],
+          [-58.5010, -34.6200],
+          [-58.5010, -34.6230],
+          [-58.5060, -34.6230],
+          [-58.5060, -34.6200]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "La Lonja",
+        "partido": "Pilar",
+        "superficie_m2": 430000,
+        "cantidad_familias_aproximada": 7100,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.8640, -34.4680],
+          [-58.8550, -34.4680],
+          [-58.8550, -34.4750],
+          [-58.8640, -34.4750],
+          [-58.8640, -34.4680]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "La Perlita",
+        "partido": "Merlo",
+        "superficie_m2": 240000,
+        "cantidad_familias_aproximada": 3900,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.7350, -34.6870],
+          [-58.7270, -34.6870],
+          [-58.7270, -34.6920],
+          [-58.7350, -34.6920],
+          [-58.7350, -34.6870]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "El Retiro",
+        "partido": "Moreno",
+        "superficie_m2": 360000,
+        "cantidad_familias_aproximada": 5900,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.7940, -34.6490],
+          [-58.7860, -34.6490],
+          [-58.7860, -34.6550],
+          [-58.7940, -34.6550],
+          [-58.7940, -34.6490]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Barrio Almafuerte",
+        "partido": "La Matanza",
+        "superficie_m2": 195000,
+        "cantidad_familias_aproximada": 3200,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.6130, -34.6640],
+          [-58.6060, -34.6640],
+          [-58.6060, -34.6690],
+          [-58.6130, -34.6690],
+          [-58.6130, -34.6640]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Zabala",
+        "partido": "Quilmes",
+        "superficie_m2": 145000,
+        "cantidad_familias_aproximada": 2400,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.2310, -34.7280],
+          [-58.2250, -34.7280],
+          [-58.2250, -34.7320],
+          [-58.2310, -34.7320],
+          [-58.2310, -34.7280]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Los Eucaliptos",
+        "partido": "Ezeiza",
+        "superficie_m2": 310000,
+        "cantidad_familias_aproximada": 5100,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.5410, -34.8610],
+          [-58.5330, -34.8610],
+          [-58.5330, -34.8670],
+          [-58.5410, -34.8670],
+          [-58.5410, -34.8610]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "El Vivero",
+        "partido": "Hurlingham",
+        "superficie_m2": 165000,
+        "cantidad_familias_aproximada": 2600,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.6390, -34.5890],
+          [-58.6320, -34.5890],
+          [-58.6320, -34.5930],
+          [-58.6390, -34.5930],
+          [-58.6390, -34.5890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Santa Rita",
+        "partido": "Ituzaingó",
+        "superficie_m2": 140000,
+        "cantidad_familias_aproximada": 2300,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.6810, -34.6430],
+          [-58.6750, -34.6430],
+          [-58.6750, -34.6470],
+          [-58.6810, -34.6470],
+          [-58.6810, -34.6430]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Los Pinos",
+        "partido": "Morón",
+        "superficie_m2": 120000,
+        "cantidad_familias_aproximada": 1900,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.6170, -34.6520],
+          [-58.6110, -34.6520],
+          [-58.6110, -34.6560],
+          [-58.6170, -34.6560],
+          [-58.6170, -34.6520]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Barrio Nuevo",
+        "partido": "Lomas de Zamora",
+        "superficie_m2": 178000,
+        "cantidad_familias_aproximada": 2800,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.4220, -34.7690],
+          [-58.4160, -34.7690],
+          [-58.4160, -34.7730],
+          [-58.4220, -34.7730],
+          [-58.4220, -34.7690]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "San Petersburgo",
+        "partido": "Tigre",
+        "superficie_m2": 520000,
+        "cantidad_familias_aproximada": 8700,
+        "agua_corriente": "NO",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "Sin urbanizar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.6210, -34.3970],
+          [-58.6120, -34.3970],
+          [-58.6120, -34.4050],
+          [-58.6210, -34.4050],
+          [-58.6210, -34.3970]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre_barrio": "Isla Maciel",
+        "partido": "Avellaneda",
+        "superficie_m2": 88000,
+        "cantidad_familias_aproximada": 1600,
+        "agua_corriente": "SI",
+        "energia_electrica": "SI",
+        "cloaca": "NO",
+        "estado_de_urbanizacion": "En proceso de urbanización"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.3620, -34.6470],
+          [-58.3560, -34.6470],
+          [-58.3560, -34.6510],
+          [-58.3620, -34.6510],
+          [-58.3620, -34.6470]
+        ]]
+      }
+    }
+  ]
+}

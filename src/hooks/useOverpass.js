@@ -4,25 +4,29 @@ import { bboxFromBounds } from '../utils/geo';
 const OVERPASS_URL = 'https://overpass-api.de/api/interpreter';
 
 const QUERIES = {
-  health: (bbox) =>
-    `[out:json][timeout:15];(node["amenity"~"hospital|clinic|health_post|doctors"](${bbox}););out body;`,
-  police: (bbox) =>
-    `[out:json][timeout:15];(node["amenity"="police"](${bbox}););out body;`,
+  health:   (b) => `[out:json][timeout:20];(node["amenity"~"hospital|clinic|health_post|doctors|pharmacy"](${b}););out body;`,
+  police:   (b) => `[out:json][timeout:20];(node["amenity"="police"](${b}););out body;`,
+  schools:  (b) => `[out:json][timeout:20];(node["amenity"~"school|kindergarten|university|college"](${b}););out body;`,
+  transit:  (b) => `[out:json][timeout:20];(node["highway"="bus_stop"](${b});node["amenity"="bus_station"](${b}););out body;`,
 };
 
+function makeState() {
+  return { data: [], loading: false };
+}
+
 export function useOverpass() {
-  const [healthData, setHealthData] = useState([]);
-  const [policeData, setPoliceData] = useState([]);
-  const [loadingHealth, setLoadingHealth] = useState(false);
-  const [loadingPolice, setLoadingPolice] = useState(false);
+  const [layers, setLayers] = useState({
+    health:  makeState(),
+    police:  makeState(),
+    schools: makeState(),
+    transit: makeState(),
+  });
 
   const fetchLayer = useCallback(async (type, bounds) => {
     const bbox = bboxFromBounds(bounds);
     const query = QUERIES[type](bbox);
-    const setter = type === 'health' ? setHealthData : setPoliceData;
-    const loadSetter = type === 'health' ? setLoadingHealth : setLoadingPolice;
 
-    loadSetter(true);
+    setLayers(prev => ({ ...prev, [type]: { ...prev[type], loading: true } }));
     try {
       const res = await fetch(OVERPASS_URL, {
         method: 'POST',
@@ -30,18 +34,15 @@ export function useOverpass() {
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       });
       const json = await res.json();
-      setter(json.elements || []);
+      setLayers(prev => ({ ...prev, [type]: { data: json.elements || [], loading: false } }));
     } catch {
-      setter([]);
-    } finally {
-      loadSetter(false);
+      setLayers(prev => ({ ...prev, [type]: { data: [], loading: false } }));
     }
   }, []);
 
   const clearLayer = useCallback((type) => {
-    if (type === 'health') setHealthData([]);
-    else setPoliceData([]);
+    setLayers(prev => ({ ...prev, [type]: makeState() }));
   }, []);
 
-  return { healthData, policeData, loadingHealth, loadingPolice, fetchLayer, clearLayer };
+  return { layers, fetchLayer, clearLayer };
 }
